@@ -13,4 +13,5 @@ elseif filereadable("~/.nerdignore")
   for line in file
       call add(ignore, line)
   endfor
+  let NERDTreeIgnore = ignore
 endif
